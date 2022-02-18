@@ -1,0 +1,142 @@
+.breadcrumb {
+    padding-top: 34px;
+    padding-bottom: 38px;
+    margin: 0;
+}
+
+.breadcrumb .breadcrumb-item,
+.breadcrumb a,
+.breadcrumb .breadcrumb-item.active {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.cat {
+    padding-bottom: 128px;
+}
+
+.cat .links {
+    border: 1px solid #e5e5e5;
+    padding: 25px 31px 36px 34px;
+}
+
+.cat .links a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    color: #1a1a1a;
+}
+
+.cat .links ul li {
+    font-size: 16px;
+    line-height: 36px;
+    color: #999999;
+}
+
+.cat .links a.active {
+    color: var(--main-color);
+}
+
+.cat .head .one {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.cat .head .two {
+    font-size: 14px;
+    line-height: 31px;
+    color: #0f87c9;
+}
+
+.cat .show {
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+
+.cat .show .three {
+    font-size: 14px;
+    line-height: 31px;
+    color: #1a1a1a;
+    margin-left: 10px;
+}
+
+.cat .show .four {
+    font-size: 14px;
+    line-height: 31px;
+    color: #1a1a1a;
+    margin-left: 10px;
+    margin-right: 21px;
+}
+
+.cat .show .first {
+    width: 258px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 31px;
+    color: #a9a9a9;
+    padding-right: 29px;
+    border: 1px solid #a9a9a9;
+}
+
+.cat .show .second {
+    width: 118px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 31px;
+    color: #a9a9a9;
+    padding-right: 29px;
+    border: 1px solid #a9a9a9;
+}
+
+
+.cat .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 263px;
+    height: 396px;
+}
+
+.cat .image {
+    width: 188px;
+    height: 257px;
+}
+
+.cat .image img {
+    max-width: 100%;
+}
+
+.cat .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 137px;
+}
+
+.cat .text p.one {
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+}
+
+.cat .text p.two {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--main-color);
+}
+.cat .text del {
+    color: #969696;
+}
+

@@ -1,0 +1,43 @@
+body {
+    direction: rtl;
+}
+
+.checkout h1 {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.checkout .one {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.checkout p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.contant {
+    height: 100%;
+    width: 100%;
+}
+
+.checkout .mb-3 input {
+    background-color: #f0f0f0;
+}
+
+.checkout a {
+    text-decoration: none;
+    color: #949494;
+}
+
+.checkout .send button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 20px;
+}

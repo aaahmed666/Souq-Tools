@@ -1,0 +1,257 @@
+.breadcrumb {
+    padding-top: 33px;
+    padding-bottom: 49px;
+    margin: 0;
+}
+
+.breadcrumb .breadcrumb-item,
+.breadcrumb a,
+.breadcrumb .breadcrumb-item.active {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: #666666;
+}
+
+
+.cart p .one {
+    font-size: 20px;
+    padding-bottom: 44px;
+}
+
+.cart table {
+    border: 1px solid #e5e5e5;
+}
+
+.cart table td,
+.cart table th {
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    border: 1px solid #e5e5e5;
+    font-size: 15.98px;
+    line-height: 23.98px;
+    font-weight: 400;
+    color: black;
+}
+
+.cart table .one {
+    width: 122px; 
+    height: 47px;
+}
+
+.cart table .two {
+    width: 482px;
+    height: 47px;
+}
+
+.cart table .three {
+    width: 297px;
+    height: 47px;
+}
+
+.cart table .four {
+    width: 212px;
+    height: 47px;
+}
+
+.cart table .five {
+    width: 205px;
+    height: 47px;
+} 
+
+.cart .qty-1 {
+    border: 1px solid #e5e5e5;
+    width: 130px;
+    height: 35px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart .qty-2 {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b70b7;
+    color: white;
+}
+
+.cart .qty-3 {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+}
+
+@media (max-width:767px) {
+    .cart table thead {
+        display: none;
+    }
+    .cart table,
+    .cart table tbody,
+    .cart table tr,
+    .cart table td {
+        display: block;
+        width: 100%;
+    }
+    .cart table tr {
+        margin-bottom: 20px;
+    }
+    .cart table td {
+        text-align: left;
+        padding-right: 50%;
+        position: relative;
+    }
+    .cart table td::after {
+        content: attr(data-lable);
+        position: absolute;
+        right: 0;
+        top: 10px;
+        padding-right: 15px;
+        width: 50%;
+        text-align: right;
+    }
+}
+
+
+.product-item {
+    padding-top: 55px;
+    padding-bottom: 69px;
+}
+
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.accordion-item:first-of-type .accordion-button,
+.accordion-button:hover,
+.accordion-item .accordion-button.collapsed,
+.accordion-button:not(.collapsed) {
+    background-color: #3b70b7;
+}
+
+.accordion .accordion-item .accordion-button {
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+    
+}
+.accordion-button:not(.collapsed) {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.accordion p.two {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.accordion p.three {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.accordion p.value {
+    margin-right: 54px;
+}
+
+.accordion .discount {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.accordion .discount input[type="text"] {
+    margin-right: 25px;
+    width: calc(100% - 124px);
+    border-radius: 0 15px 15px 0;
+    background-color: #f0f0f0;
+    height: 40px;
+    margin-left: 0;
+    outline: none;
+    border-color: transparent;
+}
+
+.accordion .discount button {
+    border-radius: 15px 0 0 15px;
+    background-color: var(--main-color);
+    color: white;
+    width: 124px;
+    height: 40px;
+    margin-right: 0;
+    font-size: 14.96px;
+    line-height: 29.91px;
+}
+
+
+.finish table td {
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    border: 1px solid #e5e5e5;
+    font-size: 15.98px;
+    line-height: 23.98px;
+    color: black;
+}
+
+.finish {
+    padding-bottom: 25px;
+}
+
+.finish .price {
+    width: 175px;
+    height: 45px;
+}
+
+.finish .thefirst {
+    width: 1140px;
+    height: 45px;
+    text-align: end;
+    padding-left: 100px;
+}
+
+.finish .thesecond {
+    padding-left: 50px;
+    width: 1140px;
+    height: 45px;
+    text-align: end;
+}
+
+.order .order-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 118px;
+}
+
+.order .order-btn .one {
+    width: 140px;
+    height: 45px;
+    background-color: #f0f0f0;
+    color: #666666;
+    font-size: 14.04px;
+    margin-left: 11px;
+    outline: none;
+    border-color: transparent;
+}
+
+.order .order-btn .two {
+    width: 140px;
+    height: 45px;
+    color: white;
+    background-color: var(--main-color);
+    font-size: 15px;
+    line-height: 30px;
+    outline: none;
+    border-color: transparent;
+}
